@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../assets/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../assets/fonts/Lato-Bold.ttf);
+}
+
+body{
+	padding-top: 70px;
+	font-family: Lato, Verdana, Arial;
+	background-color: transparent;
+}
+
+html{
+	background: url(../assets/images/homePageSplash.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.content{
+	text-align: center;
+	color: #2c3e50;
+	background: #ecf0f1;
+	position: static;  /* Position Static - Default Flow of the Document ---- FIXED is in news.html ---- ABSOLUTE in rankings.html*/ 
+}
+
+.panel-body{
+	vertical-align: middle;
+}
+
+.text-shaddow{
+	text-shadow: 0px 8px 13px rgba(0,0,0,0.2),  /*Box Styling - Shaddows*/
+	0px 18px 23px rgba(0,0,0,0.1);
+	display: inline; /*Box Visibility   inline/none/block */
+
+}
+
+.thumbnail img{
+	width: 45%;
+	height: auto;
+}
+
+.form-gender{
+	text-align: center;   /*Form Styling - Alignment Properites*/
+}
+
+.shop-item{
+	height: 100%;
+	width: auto;
+	background-color: #ecf0f1;
+	border: 1px solid #2c3e50;;
+	margin: 0px 0px 10px 0px;  /*Box Styling - Shorthand Syntax*/
+	padding: 0% 0% 2% 0%;
+	visibility: visible; /*Box Visibility visible/hidden*/
+}
+
+#signUpForm{
+	border-width: 130px;
+	border-style: solid;
+	background-color: transparent;
+	border-image: url("../assets/images/border.png") 80; /*Box Styling - Border Images*/
+	overflow: visible; /* Box Styling - Overflow    visible/hidden*/
+
+}
+
+[class="col-xs-12 signForm"]{ /*Equality*/
+	position: relative; /* Position Relative - Move Elements in relation to where they would have been in the normal flow.*/
+	top:0px;   /*Top 0/10px*/
+	background-color: #ecf0f1;
+	padding-bottom: 15px;
+	min-width: 250px;
+}
+
+.signForm input:hover{
+	color: pink; /*Form Styling - Input Text Change on Hover*/
+}
+
+[class="container bg-info"]{
+	border-radius: 5px; /*Box Styling - Border Radius*/
+}
+
+hr[class]{ /*Existence*/ 
+	width: 700px;
+	border-top: 1px solid white; /*Colour Name - Sets the colour of the text in the body.*/
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+h1{
+	font-weight: 700;
+}
+
+article a:hover{
+	text-decoration: none; /*Styling of Links - news.html has a #email-link rule*/
+}
+
+
+li{
+	color: #0FE262;
+	list-style-type: circle;
+}
